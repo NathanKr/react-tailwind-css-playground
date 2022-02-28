@@ -11,16 +11,25 @@ Terminal
 
 The latter command has created tailwind.config.js
 Edit it to have :
+```
+
 content: ["./index.html", "./src/**/*.{jsx,tsx,ts,js}"]
+
+```
+
 
 <h3>step 2</h3>
 Add  the following file postcss.config.js
+```
+
 module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
 };
+
+```
 
 <h3>step 3</h3>
 Remove all content in index.css before adding 
