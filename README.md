@@ -11,17 +11,16 @@ Terminal
 
 The latter command has created tailwind.config.js
 Edit it to have :
+
 ```
-
 content: ["./index.html", "./src/**/*.{jsx,tsx,ts,js}"]
-
 ```
 
 
 <h3>step 2</h3>
 Add  the following file postcss.config.js
-```
 
+```
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -42,8 +41,8 @@ Install vs. code plugin “PostCSS Language Support” (if not allready installe
 
 <h3>step 5</h3>
 ovveride App.js :
-```
 
+```
 export default function App() {
   return (
     h1 className="text-3xl font-bold underline text-center">
@@ -51,7 +50,6 @@ export default function App() {
     </h1>
   )
 }
-
 ```
 
 <h3>step 6</h3>
