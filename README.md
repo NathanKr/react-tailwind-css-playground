@@ -3,9 +3,11 @@ Setup for a react vite project with tailwind CSS
 
 <h2>Installation</h2>
 <h3>step 1</h3>
-Terminal :
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init
+Terminal 
+<ul>
+<li>npm install -D tailwindcss postcss autoprefixer</li>
+<li>npx tailwindcss init</li>
+</ul>
 
 The latter command has created tailwind.config.js
 Edit it to have : 
