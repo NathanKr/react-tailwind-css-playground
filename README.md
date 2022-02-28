@@ -46,5 +46,5 @@ install dependencies from the terminal :
 npm i
 
 
-<h2>Invocation</h2>
+<h2>Run the project</h2>
 npm run dev
