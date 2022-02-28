@@ -32,7 +32,6 @@ Install vs. code plugin “PostCSS Language Support” to remove the warning in 
 <h3>step 5</h3>
 ovveride App.js :
 ```
-
 export default function App() {
   return (
     h1 className="text-3xl font-bold underline text-center">
@@ -40,7 +39,6 @@ export default function App() {
     </h1>
   )
 }
-
 ```
 
 <h3>step 6</h3>
