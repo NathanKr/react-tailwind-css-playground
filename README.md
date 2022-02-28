@@ -10,7 +10,7 @@ Terminal
 </ul>
 
 The latter command has created tailwind.config.js
-Edit it to have : 
+Edit it to have :
 content: ["./index.html", "./src/**/*.{jsx,tsx,ts,js}"]
 
 <h3>step 2</h3>
@@ -19,8 +19,8 @@ module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
-  }
-}
+  },
+};
 
 <h3>step 3</h3>
 Remove all content in index.css before adding 
@@ -46,7 +46,6 @@ export default function App() {
 <h3>step 6</h3>
 install dependencies from the terminal : 
 npm i
-
 
 <h2>Run the project</h2>
 npm run dev
