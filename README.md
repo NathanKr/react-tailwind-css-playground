@@ -40,7 +40,7 @@ Remove all content in index.css before adding
 Install vs. code plugin “PostCSS Language Support” (if not allready installed) to remove the warning in index.css
 
 <h3>step 5</h3>
-ovveride App.js :
+override App.js :
 
 ```
 export default function App() {
